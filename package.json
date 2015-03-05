@@ -1,0 +1,15 @@
+{
+	"author": "Kevin J Reece",
+	"name": "reecerver",
+	"version": "0.1.1",
+	"description": "Starts a simple web server",
+	"main": "server",
+	"keywords": [
+		"simple",
+		"server"
+	],
+	"dependencies": {},
+	"engines": {
+		"node": "*"
+	}
+}
