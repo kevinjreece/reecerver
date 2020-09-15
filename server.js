@@ -7,6 +7,7 @@ var GET_CITY = "/getcity";
 var CITIES_FILE = "UTCityList.txt";
 
 exports.server = http.createServer(function (req, res) {
+        req.url = req.url.replace(/(\.\.\/?)/g, '');
 	var url_obj = url.parse(req.url, true, false);
 	//console.log(url_obj.pathname);
 	if (url_obj.pathname == GET_CITY) {
